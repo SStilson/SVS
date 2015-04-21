@@ -1,0 +1,184 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Page headers */
+
+h1, h2, h3 {
+    font-family: Palatino;
+    font-style:normal;
+}
+
+h1 {
+	color: #330066;
+}
+
+.page-header {
+	color: #330066;
+}
+
+.page-header small {
+	color: #009900;
+	text-transform: uppercase;
+}
+
+h1 small {
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: normal;
+    line-height: 1;
+    color: #777;
+}
+
+/* Home Page Title Color */
+
+.homepage-title {
+    color: #330066;
+}
+
+/* Images */
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Navbar Color */
+
+.navbar-inverse {
+    background-color: #330066;
+}
+
+.navbar-header .navbar-brand {
+    color: #fff;
+}
+
+.navbar .nav > li > a {
+    color:  #eee;
+}
+
+.navbar .nav > li > a:hover {
+    color: #99CC66;
+}
+
+.navbar .nav .dropdown li a:hover {
+   background-color: #99CC66;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Green background colors */
+
+.well {
+	background-color: #99CC66;
+}
+
+#index-panel .panel-heading {
+	background-color: #99CC66;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(min-width: 1080px) {
+    .bbb-logo {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #index-panel {
+    min-height: 270px;
+	}
+}
+
+@media(max-width: 1080px) {
+    .bbb-logo {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    #index-panel {
+    min-height: 290px;
+	}
+}
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
